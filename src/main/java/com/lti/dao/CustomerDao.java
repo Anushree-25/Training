@@ -31,7 +31,7 @@ public class CustomerDao {
 			
 			stmt.executeUpdate();
 			
-		} catch (ClassNotFoundException | SQLException | IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}  finally {
 			try { 
